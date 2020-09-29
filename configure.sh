@@ -29,6 +29,17 @@ cat << EOF > /usr/local/etc/v2ray/config.json
             },
             "streamSettings": {
                 "network": "ws"
+                "security": null,
+                "tlsSettings": null,
+                "tcpSettings": null,
+                "kcpSettings": null,
+                "wsSettings": {
+                  "connectionReuse": true,
+                     "path": null,
+                   "headers": {
+                   "Host": "v6-dy-x.ixigua.com"
+                     }
+                 }
             }
         }
     ],
