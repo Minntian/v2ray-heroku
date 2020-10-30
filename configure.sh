@@ -37,7 +37,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
                   "connectionReuse": true,
                      "path": null,
                    "headers": {
-                   "Host": "v6-dy-x.ixigua.com"
+                   "Host": ""
                      }
                  }
             }
